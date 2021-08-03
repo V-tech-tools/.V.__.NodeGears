@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "list_v_uni": "node .v.__.modules/demo.js"
   },
   "repository": {
     "type": "git",
