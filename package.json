@@ -4,8 +4,7 @@
   "description": "Helper modules from .V.",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1",
-    "v_demo": "^1.0.0"
+    "v_uni": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
