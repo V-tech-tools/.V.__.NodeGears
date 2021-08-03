@@ -1,3 +1,3 @@
-let v_demo = require('v_demo')
+let v_demo = require('./.v.__.modules/v_demo')
 
 v_demo();
