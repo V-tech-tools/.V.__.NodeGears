@@ -110,5 +110,8 @@ package-lock.json
 !node_modules/v_file_save/
 !node_modules/v_uni/
 !node_modules/vath/
+!node_modules/Vath/
 
 !node_modules/v_atoms/
+!node_modules/Vatoms/
+!node_modules/vatom_cannon/
