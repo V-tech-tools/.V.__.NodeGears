@@ -4,7 +4,8 @@
 	"description": "Helper modules from .V.",
 	"main": "index.js",
 	"dependencies": {
-		"v_uni": "^1.0.0"
+		"v_uni": "^1.0.0",
+		"v_math": "^1.0.0"
 	},
 	"devDependencies": {},
 	"scripts": {
