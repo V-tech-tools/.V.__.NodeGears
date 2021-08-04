@@ -1,30 +1,30 @@
 {
-  "name": "v-node-gears",
-  "version": "1.0.0",
-  "description": "Helper modules from .V.",
-  "main": "index.js",
-  "dependencies": {
-    "v_uni": "^1.0.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "test",
-    "list_v_uni": "node .v.__.modules/demo.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/V-tech-tools/.V.__.NodeGears.git"
-  },
-  "keywords": [
-    "node",
-    "npm",
-    "helpers",
-    "js"
-  ],
-  "author": ".V.",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/V-tech-tools/.V.__.NodeGears/issues"
-  },
-  "homepage": "https://github.com/V-tech-tools/.V.__.NodeGears#readme"
+	"name": "v-node-gears",
+	"version": "1.0.0",
+	"description": "Helper modules from .V.",
+	"main": "index.js",
+	"dependencies": {
+		"v_uni": "^1.0.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "test",
+		"list_v_uni": "node .v.__.modules/demo.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/V-tech-tools/.V.__.NodeGears.git"
+	},
+	"keywords": [
+		"node",
+		"npm",
+		"helpers",
+		"js"
+	],
+	"author": ".V.",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/V-tech-tools/.V.__.NodeGears/issues"
+	},
+	"homepage": "https://github.com/V-tech-tools/.V.__.NodeGears#readme"
 }
