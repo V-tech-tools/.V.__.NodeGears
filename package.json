@@ -1,11 +1,12 @@
 {
 	"name": "v-node-gears",
 	"version": "1.0.0",
-	"description": "Helper modules from .V.",
+	"description": "Helper modules from ⩤⮓᚜⩔≜⧌᚛⮒⩥",
 	"main": "index.js",
 	"dependencies": {
 		"v_uni": "^1.0.0",
-		"v_math": "^1.0.0"
+		"v_math": "^1.0.0",
+		"vatom_cannon": "^1.0.0"
 	},
 	"devDependencies": {},
 	"scripts": {
@@ -22,7 +23,7 @@
 		"helpers",
 		"js"
 	],
-	"author": ".V.",
+	"author": "⩤⮓᚜⩔≜⧌᚛⮒⩥",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/V-tech-tools/.V.__.NodeGears/issues"
