@@ -11,7 +11,7 @@
 	"devDependencies": {},
 	"scripts": {
 		"test": "test",
-		"list_v_uni": "node .v.__.modules/demo.js"
+		"do_v_demo": "node node_modules/v_demo/demo._.FULL_TECH.js  "
 	},
 	"repository": {
 		"type": "git",
