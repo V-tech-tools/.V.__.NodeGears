@@ -1,0 +1,17 @@
+{
+	"name": "v_dom",
+	"version": "1.0.0",
+	"description": "Custom [basic] HTML DOM Template [printing] Solution.",
+	"main": "V_DOM.js",
+	"scripts": {
+		"test": "test"
+	},
+	"keywords": [
+		"html",
+		"web",
+		"dom",
+		"js"
+	],
+	"author": "⩤⮓᚜⩔≜⧌᚛⮒⩥",
+	"license": "MIT"
+}

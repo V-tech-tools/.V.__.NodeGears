@@ -59,13 +59,85 @@ const v_add_tests = {
 		expected: '2255'
 	},
 	{
-		desc: "Lets send it some text",
+		desc: "Calculation #1",
 		pass: false,
 		tested: false,
 		test() {
-			return v_add("22", 55);
+			return v_add(918273, 645546);
 		},
-		expected: "2255"
+		expected: 1563819
+	},
+	{
+		desc: "Calculation #2",
+		pass: false,
+		tested: false,
+		test() {
+			return v_add(15638193, 6255276);
+		},
+		expected: 21893469
+	},
+	{
+		desc: "Calculation #3",
+		pass: false,
+		tested: false,
+		test() {
+			return v_add( 1144338800, 1597412583);
+		},
+		expected: 2741751383
+	},
+	{
+		desc: "Calculation #4",
+		pass: false,
+		tested: false,
+		test() {
+			return v_add(5483502766, 16450508298);
+		},
+		expected: 21934011064
+	},
+	{
+		desc: "Calculation #5",
+		pass: false,
+		tested: false,
+		test() {
+			return v_add(43868022128, 43868022128);
+		},
+		expected: 87736044256
+	},
+	{
+		desc: "Calculation #6",
+		pass: false,
+		tested: false,
+		test() {
+			return v_add(21934011064, 21934011064);
+		},
+		expected: 43868022128
+	},
+	{
+		desc: "Calculation #7",
+		pass: false,
+		tested: false,
+		test() {
+			return v_add(21934011064, 21934011064);
+		},
+		expected: 46553297840
+	},
+	{
+		desc: "Calculation #8",
+		pass: false,
+		tested: false,
+		test() {
+			return v_add(1342637856, 1342637856);
+		},
+		expected: 2685275712
+	},
+	{
+		desc: "Calculation #9",
+		pass: false,
+		tested: false,
+		test() {
+			return v_add(111225533, 1231412323);
+		},
+		expected: 1342637856
 	}
 
 	]
