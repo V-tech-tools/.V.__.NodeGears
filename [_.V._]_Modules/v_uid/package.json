@@ -1,8 +1,8 @@
 {
-	"name": "v_uniq_id",
+	"name": "v_uid",
 	"version": "1.1.1",
 	"description": "Unique ID Genertator",
-	"main": "v_uniq_id.js",
+	"main": "v_uid.js",
 	"scripts": {
 		"test": "test",
 		"run_cli": "cli.demo.js",
