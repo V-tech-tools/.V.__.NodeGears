@@ -4,14 +4,12 @@
 	"description": "Helper modules from ⩤⮓᚜⩔≜⧌᚛⮒⩥",
 	"main": "index.js",
 	"dependencies": {
-		"v_uni": "^1.0.0",
-		"v_math": "^1.0.0",
-		"vatom_cannon": "^1.0.0"
+		"nodemon": "^2.0.12"
 	},
 	"devDependencies": {},
 	"scripts": {
 		"test": "test",
-		"do_v_demo": "node node_modules/v_demo/demo._.FULL_TECH.js  "
+		"do_v_demo": "node \"[_.V._]-modules/v_demo/demo._.FULL_TECH.js \"  "
 	},
 	"repository": {
 		"type": "git",
