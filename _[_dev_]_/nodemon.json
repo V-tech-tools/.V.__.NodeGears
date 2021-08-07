@@ -1,0 +1,4 @@
+{
+    "verbose": true,
+    "ignore": ["node_modules/*", "_[_dev_]_/*", "docs/*"]
+}

@@ -119,7 +119,7 @@ package-lock.json
 !node_modules/v_isURL/
 !node_modules/v_screens_vports_list/
 
-./nodemon.json
+nodemon.json
 node_modules
 
 .vscode

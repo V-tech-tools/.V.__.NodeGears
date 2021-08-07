@@ -1,0 +1,19 @@
+{
+	"name": "v_uniq_id",
+	"version": "1.1.1",
+	"description": "Unique ID Genertator",
+	"main": "v_uniq_id.js",
+	"scripts": {
+		"test": "test",
+		"run_cli": "cli.demo.js",
+		"run_web": "web.demo.js"
+	},
+	"keywords": [
+		"icons",
+		"unicons",
+		"js",
+		"node"
+	],
+	"author": "⩤⮓᚜⩔≜⧌᚛⮒⩥",
+	"license": "MIT"
+}
