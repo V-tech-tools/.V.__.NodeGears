@@ -1,4 +1,4 @@
-var [ bright, dim, underscore, hidden, blink, reverse_color, green, red, blue ] = require('../v_cli_paint/v_cli_paint');
+var [ bright, green ] = require('../v_cli_paint/v_cli_paint');
 /////////////////////////////
 VatomCannon = (VatomSchema) => {
 
@@ -76,7 +76,7 @@ VatomCannon = (VatomSchema) => {
 	console.log("╠═▷ Failed Tests        : [ " + v_test_res.length + " ]" + spacerHelp3 + "       ║");
 	console.log("╠═▷ Ignored Tests       : [ " + numberOfIgnored + " ]" + spacerHelp4 + "       ║");
 	console.log((v_test_res.length == 0) ? "║ ╔════════════════════╗                ║" : "║ ╔═════════════════════════╗           ║");
-	console.log((v_test_res.length == 0) ? "╚═╣ ▶ STATUS : "+ bright(green("_OK_")) +"    ╠════════════════╝" : "╚═╣ ▶ WARNING : FAILED TEST ╠═══════════╝");
+	console.log((v_test_res.length == 0) ? "╚═╣ ▶ STATUS : "+ vCLIp_bright(vCLIp_green("_OK_")) +"    ╠════════════════╝" : "╚═╣ ▶ WARNING : FAILED TEST ╠═══════════╝");
 	console.log((v_test_res.length == 0) ? "  ╚════════════════════╝ " : "  ╚═════════════════════════╝ ");
 
 	if (printAll === true) {

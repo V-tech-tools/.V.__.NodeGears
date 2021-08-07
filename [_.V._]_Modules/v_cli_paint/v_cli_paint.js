@@ -109,63 +109,6 @@ hidden_paint = (str = null) => {
 	return false;
 };
 
-	module.exports = [
-		vCLIp_bright = (str = null) => {
-			if (VnotNull(str, 'vCLIp_bright')) {
-				return bright_paint(str);
-			}
-			return false;
-		},
-		vCLIp_dim = (str = null) => {
-			if (VnotNull(str, 'vCLIp_dim')) {
-				return dim_paint(str);
-			}
-			return false;
-		},
-		vCLIp_underscore = (str = null) => {
-			if (VnotNull(str, 'vCLIp_underscore')) {
-				return underscore_paint(str);
-			}
-			return false;
-		},
-		vCLIp_blink = (str = null) => {
-			if (VnotNull(str, 'vCLIp_blink')) {
-				return blink_paint(str);
-			}
-			return false;
-		},
-		vCLIp_reverse_color = (str = null) => {
-			if (str === null) {
-				return "ERROR: reverse() function missing parameter < $str > ";
-			}
-			return reverse_paint(str);
-		},
-		vCLIp_hidden = (str = null) => {
-			if (VnotNull(str, 'vCLIp_hidden')) {
-				return hidden_paint(str);
-			}
-			return false;
-		},
-		vCLIp_green = (str = null) => {
-			if (VnotNull(str, 'vCLIp_green')) {
-				return green_fg_paint(str);
-			}
-			return false;
-		},
-		vCLIp_red = (str = null) => {
-			if (VnotNull(str, 'vCLIp_red')) {
-				return red_fg_paint(str);
-			}
-			return false;
-		},
-		vCLIp_blue = (str = null) => {
-			if (VnotNull(str, 'vCLIp_blue')) {
-				return blue_fg_paint(str);
-			}
-			return false;
-		},
-	];
-
 	
 	const vCLIp = {
 		bright(str = null) {
@@ -225,3 +168,62 @@ hidden_paint = (str = null) => {
 	};
 	
 module.exports =	vCLIp;
+
+
+
+module.exports = [
+	vCLIp_bright = (str = null) => {
+		if (VnotNull(str, 'vCLIp_bright')) {
+			return bright_paint(str);
+		}
+		return false;
+	},
+	vCLIp_dim = (str = null) => {
+		if (VnotNull(str, 'vCLIp_dim')) {
+			return dim_paint(str);
+		}
+		return false;
+	},
+	vCLIp_underscore = (str = null) => {
+		if (VnotNull(str, 'vCLIp_underscore')) {
+			return underscore_paint(str);
+		}
+		return false;
+	},
+	vCLIp_blink = (str = null) => {
+		if (VnotNull(str, 'vCLIp_blink')) {
+			return blink_paint(str);
+		}
+		return false;
+	},
+	vCLIp_reverse_color = (str = null) => {
+		if (str === null) {
+			return "ERROR: reverse() function missing parameter < $str > ";
+		}
+		return reverse_paint(str);
+	},
+	vCLIp_hidden = (str = null) => {
+		if (VnotNull(str, 'vCLIp_hidden')) {
+			return hidden_paint(str);
+		}
+		return false;
+	},
+	vCLIp_green = (str = null) => {
+		if (VnotNull(str, 'vCLIp_green')) {
+			return green_fg_paint(str);
+		}
+		return false;
+	},
+	vCLIp_red = (str = null) => {
+		if (VnotNull(str, 'vCLIp_red')) {
+			return red_fg_paint(str);
+		}
+		return false;
+	},
+	vCLIp_blue = (str = null) => {
+		if (VnotNull(str, 'vCLIp_blue')) {
+			return blue_fg_paint(str);
+		}
+		return false;
+	},
+];
