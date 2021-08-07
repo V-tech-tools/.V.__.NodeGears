@@ -3,13 +3,12 @@
 	"version": "1.0.0",
 	"description": "Helper modules from ⩤⮓᚜⩔≜⧌᚛⮒⩥",
 	"main": "index.js",
-	"dependencies": {
-		"nodemon": "^2.0.12"
-	},
+	"dependencies": {},
 	"devDependencies": {},
 	"scripts": {
 		"test": "test",
-		"do_v_demo": "node \"[_.V._]-modules/v_demo/demo._.FULL_TECH.js \"  "
+		"forge": "node \"_[_dev_]_/forge_v_gears.js\"",
+		"showoff": "node \"[_.V._]_Sample/demo.js \"  "
 	},
 	"repository": {
 		"type": "git",
