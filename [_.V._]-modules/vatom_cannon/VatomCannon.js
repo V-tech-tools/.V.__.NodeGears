@@ -1,6 +1,8 @@
-
+var [ bright, dim, underscore, hidden, blink, reverse_color, green, red, blue ] = require('../v_cli_paint/v_cli_paint');
 /////////////////////////////
 VatomCannon = (VatomSchema) => {
+
+	//=-<[ Variables Prep/Setting up ]>.__________________________
 	var v_test_res = [];
 	var numberOfIgnored = 0;
 	var printAll = ((VatomSchema.printAll === true) ? true : false);
@@ -46,22 +48,22 @@ VatomCannon = (VatomSchema) => {
 	v_test_list.forEach(item => {
 		if (item.pass === false) {
 			if (typeof item.ignored !== 'undefined') {
-				if (item.ignored !== true) {
-					v_test_res.push(item);
-				} else {
-					if (printAll === true) {
-						console.log("ingnored");
-					}
+				if (item.ignored === true) {
 					numberOfIgnored++;
+					return false;
 				}
-			} else {
-				v_test_res.push(item);
-			}
+			} 
+			return v_test_res.push(item);
 		}
 	});
 
-	var spacerHelp = (v_test_list.length > 99) ? '' : ' ';
-	spacerHelp = (v_test_list.length < 10) ? '  ' : ' ';
+	const passedNumb = (v_test_list.length - (v_test_res.length + numberOfIgnored));
+
+	var spacerHelp = (v_test_list.length > 99) ? '' : ((v_test_list.length < 10) ? '  ' : ' ');
+	var spacerHelp2 = (passedNumb > 99) ? '' : ((passedNumb < 10) ? '  ' : ' ');
+	var spacerHelp3 = (v_test_res.length > 99) ? '' : ((v_test_res.length < 10) ? '  ' : ' ');
+	var spacerHelp4 = (numberOfIgnored > 99) ? '' : ((numberOfIgnored < 10) ? '  ' : ' ');
+
 
 	console.log("  ╓┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄╖")
 	console.log('╔═╣ Result : ' + VatomSchema.name + '() ╠══════════════════╗')
@@ -70,11 +72,11 @@ VatomCannon = (VatomSchema) => {
 	console.log('║ ' + VatomSchema.hint.substring(0, 34) + ((VatomSchema.hint.length > 34) ? "..." : "   ") + ' ║')
 	console.log('╟┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄╢')
 	console.log("╠═▷ Number of tests     : [ " + v_test_list.length + " ]" + spacerHelp + "       ║");
-	console.log("╠═▷ Passing Tests Number: [ " + (v_test_list.length - (v_test_res.length + numberOfIgnored)) + " ]" + spacerHelp + "       ║");
-	console.log("╠═▷ Failed Tests        : [ " + v_test_res.length + " ]" + spacerHelp + "       ║");
-	console.log("╠═▷ Ignored Tests       : [ " + numberOfIgnored + " ]" + spacerHelp + "       ║");
+	console.log("╠═▷ Passing Tests Number: [ " + passedNumb + " ]" + spacerHelp2 + "       ║");
+	console.log("╠═▷ Failed Tests        : [ " + v_test_res.length + " ]" + spacerHelp3 + "       ║");
+	console.log("╠═▷ Ignored Tests       : [ " + numberOfIgnored + " ]" + spacerHelp4 + "       ║");
 	console.log((v_test_res.length == 0) ? "║ ╔════════════════════╗                ║" : "║ ╔═════════════════════════╗           ║");
-	console.log((v_test_res.length == 0) ? "╚═╣ ▶ STATUS : _OK_    ╠════════════════╝" : "╚═╣ ▶ WARNING : FAILED TEST ╠═══════════╝");
+	console.log((v_test_res.length == 0) ? "╚═╣ ▶ STATUS : "+ bright(green("_OK_")) +"    ╠════════════════╝" : "╚═╣ ▶ WARNING : FAILED TEST ╠═══════════╝");
 	console.log((v_test_res.length == 0) ? "  ╚════════════════════╝ " : "  ╚═════════════════════════╝ ");
 
 	if (printAll === true) {

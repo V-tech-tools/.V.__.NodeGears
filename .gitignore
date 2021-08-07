@@ -121,6 +121,7 @@ package-lock.json
 
 !node_modules/v_*
 
+.vscode
 .vscode/*
 ./.vscode/*
 !.vscode/.settings.json

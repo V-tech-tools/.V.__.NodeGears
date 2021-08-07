@@ -24,93 +24,109 @@ var BgMagenta = "\x1b[45m";
 var BgCyan = "\x1b[46m";
 var BgWhite = "\x1b[47m";
  
+black_fg_paint = (str) => {
+	return FgBlack + str + Reset;
+};
+yellow_fg_paint = (str) => {
+    return FgYellow + str + Reset;
+};
+magenta_fg_paint = (str) => {
+    return FgMagenta + str + Reset;
+};
+cyan_fg_paint = (str) => {
+    return FgCyan + str + Reset;
+};
+white_fg_paint = (str) => {
+    return FgWhite + str + Reset;
+};
+//------------------------
 green_fg_paint = (str) => {
-    return FgGreen + str + Reset
+	return FgGreen + str + Reset;
 };
 red_fg_paint = (str) => {
-    return FgRed + str + Reset
+    return FgRed + str + Reset;
 };
 blue_fg_paint = (str) => {
-    return FgBlue + str + Reset
+    return FgBlue + str + Reset;
 };
 
 bright_paint = (str) => {
-    return Bright + str + Reset
+    return Bright + str + Reset;
 };
 
 dim_paint = (str) => {
-    return Dim + str + Reset
+    return Dim + str + Reset;
 };
 
 underscore_paint = (str) => {
-    return Underscore + str + Reset
+    return Underscore + str + Reset;
 };
 
 blink_paint = (str) => {
-    return Blink + str + Reset
+    return Blink + str + Reset;
 };
 
 reverse_paint = (str) => {
-    return Reverse + str + Reset
+    return Reverse + str + Reset;
 };
 
 hidden_paint = (str) => {
-    return Hidden + str + Reset
+    return Hidden + str + Reset;
 };
 
-module.exports = [
-    bright = (str = null) => {
+module.exports = V_CLIp = {
+    bright (str = null) {
         if (str === null) {
             return "ERROR: bright() function missing parameter < $str > ";
         }
         return bright_paint(str);
     },
-    dim = (str = null) => {
+    dim (str = null) {
         if (str === null) {
             return "ERROR: dim() function missing parameter < $str > ";
         }
         return dim_paint(str);
     },
-    underscore = (str = null) => {
+    underscore (str = null) {
         if (str === null) {
             return "ERROR: underscore() function missing parameter < $str > ";
         }
         return underscore_paint(str);
     },
-    blink = (str = null) => {
+    blink (str = null) {
         if (str === null) {
             return "ERROR: blink() function missing parameter < $str > ";
         }
         return blink_paint(str);
     },
-    reverse_color = (str = null) => {
+    reverse_color (str = null) {
         if (str === null) {
             return "ERROR: reverse() function missing parameter < $str > ";
         }
         return reverse_paint(str);
     },
-    hidden = (str = null) => {
+    hidden (str = null) {
         if (str === null) {
             return "ERROR: hidden() function missing parameter < $str > ";
         }
         return hidden_paint(str);
     },
-    green = (str = null) => {
+    green (str = null) {
         if (str === null) {
             return "ERROR: green() function missing parameter < $str > ";
         }
         return green_fg_paint(str);
     },
-    red = (str = null) => {
+    red (str = null) {
         if (str === null) {
             return "ERROR: red() function missing parameter < $str > ";
         }
         return red_fg_paint(str);
     },
-    blue = (str = null) => {
+    blue (str = null) {
         if (str === null) {
             return "ERROR: blue() function missing parameter < $str > ";
         }
         return blue_fg_paint(str);
     }
-]
+	}
