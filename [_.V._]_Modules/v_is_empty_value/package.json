@@ -1,0 +1,19 @@
+{
+	"name": "v_is_empty_value",
+	"version": "1.0.0",
+	"description": "Just a simple function to see if variable is empty.",
+	"main": "v_is_empty_value.js",
+	"scripts": {
+		"test": "test"
+	},
+	"keywords": [
+		"URL",
+		"validate",
+		"isURL",
+		"v_node",
+		"v_tools",
+		"v_is_empty_value"
+	],
+	"author": "⩤⮓᚜⩔≜⧌᚛⮒⩥",
+	"license": "MIT"
+}

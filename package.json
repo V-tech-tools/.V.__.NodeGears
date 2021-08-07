@@ -7,7 +7,7 @@
 	"devDependencies": {},
 	"scripts": {
 		"test": "test",
-		"reforge": "node \"_[_dev_]_/forge.js\"",
+		"reforge": "bash -c \"cp -R \\[_.V._\\]_Modules/* node_modules/\" && node \"_[_dev_]_/forge.js\"",
 		"start_forge" : "nodemon \"_[_dev_]_/forge.js\"",
 		"showoff": "node \"[_.V._]_Sample/demo.js \"  "
 	},

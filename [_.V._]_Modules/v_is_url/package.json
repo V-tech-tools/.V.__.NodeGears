@@ -1,8 +1,8 @@
 {
-	"name": "v_isurl",
+	"name": "v_is_url",
 	"version": "1.0.0",
-	"description": "Just a simple funciton to confirm if the provided string is URL.",
-	"main": "v_isURL.js",
+	"description": "Just a simple function to confirm if the provided string is URL.",
+	"main": "v_is_url.js",
 	"scripts": {
 		"test": "test"
 	},
@@ -12,7 +12,7 @@
 		"isURL",
 		"v_node",
 		"v_tools",
-		"v_isURL"
+		"v_is_url"
 	],
 	"author": "⩤⮓᚜⩔≜⧌᚛⮒⩥",
 	"license": "MIT"
