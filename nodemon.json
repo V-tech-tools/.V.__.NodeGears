@@ -1,0 +1,14 @@
+{
+  "name": "nodemon",
+  "verbose": true,
+  "homepage": "#",
+  "ignore": ["*.test.js", "fixtures/*"],
+  "execMap": {
+    "rb": "ruby",
+    "pde": "processing --sketch={{pwd}} --run"
+  },
+  "nodemonConfig": {
+    "ignore": ["test/*", "docs/*"],
+    "delay": 2500
+  }
+}
