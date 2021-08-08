@@ -12,10 +12,10 @@
 	"devDependencies": {},
 	"scripts": {
 		"test": "test",
-		"reforge": "bash -c \"rm -r node_modules -f ; npm install ; node _\\[_dev_\\]_/forge.js\"",
+		"reforge": "bash -c \"rm -r node_modules -f ; npm install ; node _\\[_dev_\\]_/forge.js ; npx webpack --config webpack.config.js\"",
 		"start_forge": "bash -c \"nodemon _\\[_dev_\\]_/forge.js\"",
 		"showoff": "bash -c \"node \\[_.V._\\]_Sample/demo.js\" ",
-		"reforgeF": "node \"_[_dev_]_/forge.js\" && npx webpack --config webpack.config.js",
+		"web_x1": "node [.v.]_dev_apps/_x1/web_static.js"
 	},
 	"repository": {
 		"type": "git",
