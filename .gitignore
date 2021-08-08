@@ -104,23 +104,11 @@ dist
 .tern-port
 package-lock.json
 
-!node_modules/v_demo/
-!node_modules/v_dir_list/
-!node_modules/v_file_read/
-!node_modules/v_file_save/
-!node_modules/v_uni/
-!node_modules/vath/
-!node_modules/Vath/
-
-!node_modules/v_atoms/
-!node_modules/Vatoms/
-!node_modules/vatom_cannon/
-!node_modules/v_math/
-!node_modules/v_isURL/
-!node_modules/v_screens_vports_list/
 
 nodemon.json
 node_modules
+
+!node_modules/.gitkeep
 
 .vscode
 .vscode/*

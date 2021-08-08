@@ -3,13 +3,17 @@
 	"version": "1.0.0",
 	"description": "Helper modules from ⩤⮓᚜⩔≜⧌᚛⮒⩥",
 	"main": "index.js",
-	"dependencies": {},
+	"dependencies": {
+		"express": "^4.17.1",
+		"webpack": "^5.46.0",
+		"webpack-cli": "^4.7.2"
+	},
 	"devDependencies": {},
 	"scripts": {
 		"test": "test",
-		"reforge": "node \"_[_dev_]_/forge.js\"",
-		"start_forge": "nodemon \"_[_dev_]_/forge.js\"",
-		"showoff": "node \"[_.V._]_Sample/demo.js \"  "
+		"reforge": "bash -c \"rm -r node_modules -f ; npm install ; node _\\[_dev_\\]_/forge.js\"",
+		"start_forge": "bash -c \"nodemon _\\[_dev_\\]_/forge.js\"",
+		"showoff": "bash -c \"node \\[_.V._\\]_Sample/demo.js\" "
 	},
 	"repository": {
 		"type": "git",
