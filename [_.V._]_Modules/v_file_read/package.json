@@ -1,0 +1,17 @@
+{
+	"name": "v_file_read",
+	"version": "1.0.0",
+	"description": "v_file_read",
+	"main": "v_file_read.js",
+	"scripts": {
+		"test": "test"
+	},
+	"keywords": [
+		"html",
+		"web",
+		"dom",
+		"js"
+	],
+	"author": "⩤⮓᚜⩔≜⧌᚛⮒⩥",
+	"license": "MIT"
+}
