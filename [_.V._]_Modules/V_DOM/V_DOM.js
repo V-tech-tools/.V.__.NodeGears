@@ -1,25 +1,25 @@
-
+const esi = "Empty String Input ";
 const v_dom = {
     blocks : {
-        h1 (str = "Empty String Input") {
+        h1 (str = esi) {
             return `<h1>${str}</h1>`;
         },
-        h2 (str = "Empty String Input") {
+        h2 (str = esi) {
             return `<h2>${str}</h2>`;
         },
-        h3 (str = "Empty String Input") {
+        h3 (str = esi) {
             return `<h3>${str}</h3>`;
         },
-        h4 (str = "Empty String Input") {
+        h4 (str = esi) {
             return `<h4>${str}</h4>`;
         },
-        h5 (str = "Empty String Input") {
+        h5 (str = esi) {
             return `<h5>${str}</h5>`;
         },
-        h6 (str = "Empty String Input") {
+        h6 (str = esi) {
             return `<h6>${str}</h6>`;
         },
-        p (str = "Empty String Input") {
+        p (str = esi) {
             return `<p>${str}</p>`;
         },
         img(url = "Empty URL input") {
@@ -29,6 +29,10 @@ const v_dom = {
             return `<v_hero>${this.h2(title)}${this.h5(subtitle)}${this.p(text)}${this.img(imgUrl)}</v_hero>`;
         }
     },
+		register_block(blockParams = null){
+			console.log("REGISTER BLOCK: "+blockParams);
+			return blockParams;
+		},
     block_count(){
         var itemNumber = 0;
         for (const property in v_dom.blocks) {
