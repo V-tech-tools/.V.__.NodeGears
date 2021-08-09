@@ -1,29 +1,29 @@
-let V_DOM = require('v_dom')
+let v_dom = require('v_dom')
 
 
 console.log("YEAAA");
 
-document.body.innerHTML += V_DOM.blocks.h1();
-document.body.innerHTML += V_DOM.blocks.h2();
-document.body.innerHTML += V_DOM.blocks.h3();
-document.body.innerHTML += V_DOM.blocks.h4();
-document.body.innerHTML += V_DOM.blocks.h5();
-document.body.innerHTML += V_DOM.blocks.h6();
-document.body.innerHTML += V_DOM.blocks.hero_v();
+document.body.innerHTML += v_dom.blocks.h1();
+document.body.innerHTML += v_dom.blocks.h2();
+document.body.innerHTML += v_dom.blocks.h3();
+document.body.innerHTML += v_dom.blocks.h4();
+document.body.innerHTML += v_dom.blocks.h5();
+document.body.innerHTML += v_dom.blocks.h6();
+document.body.innerHTML += v_dom.blocks.hero_v();
 
-document.body.innerHTML += V_DOM.blocks.h1('TTT having some title shieeet');
-document.body.innerHTML += V_DOM.blocks.h2('TTT having some title shieeet');
-document.body.innerHTML += V_DOM.blocks.h3('TTT having some title shieeet');
-document.body.innerHTML += V_DOM.blocks.h4('TTT having some title shieeet');
-document.body.innerHTML += V_DOM.blocks.h5('TTT having some title shieeet');
-document.body.innerHTML += V_DOM.blocks.h6('TTT having some title shieeet');
-document.body.innerHTML += V_DOM.blocks.hero_v('TTT having some title shieeet', 'TTT having some title shieeet', 'TTT having some title shieeet');
+document.body.innerHTML += v_dom.blocks.h1('TTT having some title shieeet');
+document.body.innerHTML += v_dom.blocks.h2('TTT having some title shieeet');
+document.body.innerHTML += v_dom.blocks.h3('TTT having some title shieeet');
+document.body.innerHTML += v_dom.blocks.h4('TTT having some title shieeet');
+document.body.innerHTML += v_dom.blocks.h5('TTT having some title shieeet');
+document.body.innerHTML += v_dom.blocks.h6('TTT having some title shieeet');
+document.body.innerHTML += v_dom.blocks.hero_v('TTT having some title shieeet', 'TTT having some title shieeet', 'TTT having some title shieeet');
 
-document.body.innerHTML += V_DOM.h1('TTT having some title shieeet');
-document.body.innerHTML += V_DOM.h2('TTT having some title shieeet');
-document.body.innerHTML += V_DOM.h3('TTT having some title shieeet');
-document.body.innerHTML += V_DOM.h4('TTT having some title shieeet');
-document.body.innerHTML += V_DOM.h5('TTT having some title shieeet');
-document.body.innerHTML += V_DOM.h6('TTT having some title shieeet');
-document.body.innerHTML += V_DOM.hero_v('TTT having some title shieeet', 'TTT having some title shieeet', 'TTT having some title shieeet');
+document.body.innerHTML += v_dom.h1('TTT having some title shieeet');
+document.body.innerHTML += v_dom.h2('TTT having some title shieeet');
+document.body.innerHTML += v_dom.h3('TTT having some title shieeet');
+document.body.innerHTML += v_dom.h4('TTT having some title shieeet');
+document.body.innerHTML += v_dom.h5('TTT having some title shieeet');
+document.body.innerHTML += v_dom.h6('TTT having some title shieeet');
+document.body.innerHTML += v_dom.hero_v('TTT having some title shieeet', 'TTT having some title shieeet', 'TTT having some title shieeet');
 
