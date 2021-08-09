@@ -2,7 +2,7 @@
 	"name": "v_dom",
 	"version": "1.0.0",
 	"description": "Custom [basic] HTML DOM Template [printing] Solution.",
-	"main": "V_DOM.js",
+	"main": "v_dom.js",
 	"scripts": {
 		"test": "test"
 	},

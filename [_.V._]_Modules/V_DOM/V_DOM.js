@@ -1,7 +1,5 @@
-console.clear();
 
-
-const V_DOM = {
+const v_dom = {
     blocks : {
         h1 (str = "Empty String Input") {
             return `<h1>${str}</h1>`;
@@ -33,7 +31,7 @@ const V_DOM = {
     },
     block_count(){
         var itemNumber = 0;
-        for (const property in V_DOM.blocks) {
+        for (const property in v_dom.blocks) {
             //console.log(`${property}: ${V_DOM.blocks[property]}`);
             itemNumber++;
         };
@@ -66,5 +64,9 @@ const V_DOM = {
     }
 }
 
-console.log(V_DOM.block_count());
-console.log(V_DOM.blocks_number);
+/*
+console.log(v_dom.block_count());
+console.log(v_dom.blocks_number);
+*/
+
+module.exports = v_dom;
