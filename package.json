@@ -7,6 +7,7 @@
 		"css-loader": "^6.2.0",
 		"express": "^4.17.1",
 		"lodash": "^4.17.21",
+		"node-sass": "^6.0.1",
 		"socket.io": "^4.0.0",
 		"style-loader": "^3.2.1",
 		"webpack": "^5.49.0",
@@ -19,7 +20,7 @@
 		"start_forge": "bash -c \"nodemon _\\[_dev_\\]_/forge.js\"",
 		"showoff": "bash -c \"node \\[_.V._\\]_Sample/demo.js\" ",
 		"web_x1": "node [.v.]_dev_apps/_x1/web_static.js",
-		"x1_pack": "webpack --config webpack.config.js"
+		"x1_pack": "bash -c \" webpack --config webpack.config.js ; node-sass \\[.v.\\]_dev_apps/_x1/SRC/scss/\\[_.V._\\]Login.scss \\[.v.\\]_dev_apps/_x1/PUBLIC/\\[_.V._\\]Login.css \""
 	},
 	"repository": {
 		"type": "git",
