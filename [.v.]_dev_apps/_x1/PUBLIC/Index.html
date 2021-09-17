@@ -27,9 +27,40 @@
 	}
 </style>
 
+<link rel="stylesheet" href="style.css">
+
 <body>
-	YEAAAAAAAA
-	<script src="/v_pack.js"></script>
+	<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div id="first" style="background: green; height: 200px;"></div>
+<div id="testID" style="background: blue; height: 200px;"></div>
+<div class="anaMenu" style="background: rgb(40, 40, 124); height: 20px;"></div>
+<div class="anaMenu" style="background: rgb(45, 40, 124); height: 20px;"></div>
+<div class="anaMenu" style="background: rgb(40, 50, 124); height: 20px;"></div>
+<div class="anaMenu" style="background: rgb(60, 40, 124); height: 20px;"></div>
+<div class="anaMenu" style="background: rgb(40, 70, 124); height: 20px;"></div>
+<div class="anaMenu" style="background: rgb(80, 40, 124); height: 20px;"></div>
+
+	<ul class="pages">
+    <li class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Type here..."/>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">What's your nickname?</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+      </div>
+    </li>
+  </ul>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+	<script src="/index.v_pack.js"></script>
+	<script src="/v_cursor.v_pack.js"></script>
 </body>
 
 </html>

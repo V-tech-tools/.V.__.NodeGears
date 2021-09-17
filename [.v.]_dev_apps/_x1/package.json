@@ -1,0 +1,17 @@
+{
+  "name": "_x1",
+  "version": "0.0.0",
+  "description": "Application driver using socket.io",
+  "main": "index.js",
+  "author": "_V_",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.17.1",
+    "socket.io": "^4.0.0"
+  },
+  "scripts": {
+    "web_static": "node web_static.js",
+    "web_socket_io": "node web_socket_io.js"
+  }
+}
